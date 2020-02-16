@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{570AA2C4-7C6D-48C9-98E6-C60239854EAF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Game\dxlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Game\dxlib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Game\dxlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Game\dxlib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Game\dxlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Game\dxlib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Game\dxlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Game\dxlib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="BasicUI.cpp" />
+    <ClCompile Include="ClearGauge.cpp" />
+    <ClCompile Include="ClearGaugeFream.cpp" />
+    <ClCompile Include="ComboLabel.cpp" />
+    <ClCompile Include="Cursol.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="GameResult.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GameSceneJacket.cpp" />
+    <ClCompile Include="GameUI.cpp" />
+    <ClCompile Include="GraphicResource.cpp" />
+    <ClCompile Include="HoldNote.cpp" />
+    <ClCompile Include="Jacket.cpp" />
+    <ClCompile Include="json11.cpp" />
+    <ClCompile Include="JudgeButton.cpp" />
+    <ClCompile Include="JudgeLine.cpp" />
+    <ClCompile Include="JudgeResultCreater.cpp" />
+    <ClCompile Include="JudgeResultEffect.cpp" />
+    <ClCompile Include="JudgeResultText.cpp" />
+    <ClCompile Include="JudgeResultUI.cpp" />
+    <ClCompile Include="KeyBoard.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Movie.cpp" />
+    <ClCompile Include="MovieResource.cpp" />
+    <ClCompile Include="MusicSelect.cpp" />
+    <ClCompile Include="MusicSelectGuide.cpp" />
+    <ClCompile Include="MusicSelectUI.cpp" />
+    <ClCompile Include="Necessary.cpp" />
+    <ClCompile Include="Notes.cpp" />
+    <ClCompile Include="NotesController.cpp" />
+    <ClCompile Include="NotesCreater.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Purpose.cpp" />
+    <ClCompile Include="PushNote.cpp" />
+    <ClCompile Include="RankData.cpp" />
+    <ClCompile Include="Ranking.cpp" />
+    <ClCompile Include="RankLabel.cpp" />
+    <ClCompile Include="ResultGuide.cpp" />
+    <ClCompile Include="ResultScene.cpp" />
+    <ClCompile Include="ResultSceneTitle.cpp" />
+    <ClCompile Include="ResultUI.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScoreLabel.cpp" />
+    <ClCompile Include="ScoreRanking.cpp" />
+    <ClCompile Include="ScreenFunction.cpp" />
+    <ClCompile Include="ScreenHelperGraph.cpp" />
+    <ClCompile Include="ScreenSystem.cpp" />
+    <ClCompile Include="SpeedLabel.cpp" />
+    <ClCompile Include="TitleGuide.cpp" />
+    <ClCompile Include="TitleLogo.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TitleUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="BasicUI.h" />
+    <ClInclude Include="ClearGauge.h" />
+    <ClInclude Include="ClearGaugeFream.h" />
+    <ClInclude Include="ComboLabel.h" />
+    <ClInclude Include="Cursol.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="GameResult.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GameSceneJacket.h" />
+    <ClInclude Include="GameUI.h" />
+    <ClInclude Include="GraphicResource.h" />
+    <ClInclude Include="HoldNote.h" />
+    <ClInclude Include="Jacket.h" />
+    <ClInclude Include="json11.hpp" />
+    <ClInclude Include="JudgeButton.h" />
+    <ClInclude Include="JudgeLine.h" />
+    <ClInclude Include="JudgeResultCreater.h" />
+    <ClInclude Include="JudgeResultEffect.h" />
+    <ClInclude Include="JudgeResultText.h" />
+    <ClInclude Include="JudgeResultUI.h" />
+    <ClInclude Include="KeyBoard.h" />
+    <ClInclude Include="MemoryFunc.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Movie.h" />
+    <ClInclude Include="MovieResource.h" />
+    <ClInclude Include="MusicSelect.h" />
+    <ClInclude Include="MusicSelectGuide.h" />
+    <ClInclude Include="MusicSelectUI.h" />
+    <ClInclude Include="Necessary.h" />
+    <ClInclude Include="Notes.h" />
+    <ClInclude Include="NotesController.h" />
+    <ClInclude Include="NotesCreater.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Purpose.h" />
+    <ClInclude Include="PushNote.h" />
+    <ClInclude Include="RankData.h" />
+    <ClInclude Include="Ranking.h" />
+    <ClInclude Include="RankLabel.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResultGuide.h" />
+    <ClInclude Include="ResultScene.h" />
+    <ClInclude Include="ResultSceneTitle.h" />
+    <ClInclude Include="ResultUI.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ScoreLabel.h" />
+    <ClInclude Include="ScoreRanking.h" />
+    <ClInclude Include="ScreenFunction.h" />
+    <ClInclude Include="ScreenHelperGraph.h" />
+    <ClInclude Include="ScreenSystem.h" />
+    <ClInclude Include="SpeedLabel.h" />
+    <ClInclude Include="TitleGuide.h" />
+    <ClInclude Include="TitleLogo.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TitleUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

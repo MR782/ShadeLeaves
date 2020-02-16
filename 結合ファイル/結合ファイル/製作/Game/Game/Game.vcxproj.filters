@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource">
+      <UniqueIdentifier>{c7e05bd8-1215-40a3-9926-643cc322a240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Audio">
+      <UniqueIdentifier>{00209ec1-f38e-42fe-8f2e-bbe8425e19ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Animation">
+      <UniqueIdentifier>{8e8e9be3-00f9-4652-bfc8-e8743ce1c747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Animation\Manager">
+      <UniqueIdentifier>{ff517af8-232b-4678-b8b3-f1bf9edd3e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Animation\Animation">
+      <UniqueIdentifier>{8c194f26-6d67-4ab8-9e41-b9f28e54bd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Movie">
+      <UniqueIdentifier>{83e960b1-c865-41d4-a6d4-bfca59dfd324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Movie\Manager">
+      <UniqueIdentifier>{2e1513d7-e39d-469e-936e-da5bcf51b35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource\Movie\Movie">
+      <UniqueIdentifier>{491421e1-a5df-466c-b089-fad82d8078a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{31969420-8419-49d5-9769-416f735dfdfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\UI">
+      <UniqueIdentifier>{ad101f23-5a5f-4886-a79f-deb000fd4a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Object">
+      <UniqueIdentifier>{f7784dc1-5b3c-4174-ac46-768ebee79532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Purpose">
+      <UniqueIdentifier>{2d61b137-a49c-42f8-b54b-ebba8ec10292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Scene">
+      <UniqueIdentifier>{0d4a3c02-629c-49db-ba92-0949868108ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{17f48bfc-5f2a-483d-80a8-ad7405418af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Game">
+      <UniqueIdentifier>{fd83385f-9eca-42e6-907c-df12f0d9381b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\MusicSelectScene">
+      <UniqueIdentifier>{b5949e1b-ab61-4c58-b282-5e62d99ad2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\ResultScene">
+      <UniqueIdentifier>{2ae5d1ad-45ef-46f2-a582-b355797b1923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Manager">
+      <UniqueIdentifier>{914d5af6-99d1-4ae5-8762-621775557fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{10b442d3-55d6-4714-9173-b2ec05f3a779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{94538e95-0a91-404a-ba81-50fd8e2d97ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject">
+      <UniqueIdentifier>{c6024090-2a0f-4a13-9e21-3abfb8432a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI">
+      <UniqueIdentifier>{8440c3b8-d700-4717-aca5-18a44314defb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\ComboLabel">
+      <UniqueIdentifier>{c7089ad8-a034-4646-8604-df1430443f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\Jacket">
+      <UniqueIdentifier>{248271a8-c272-4b9a-962c-dfa99918f872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\JudgeButton">
+      <UniqueIdentifier>{2b52bd8a-3d18-40db-90b6-f490a1d2cbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\JudgeResult">
+      <UniqueIdentifier>{5225022e-4980-45f1-878d-455c2ece69fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\ResultSceneUI">
+      <UniqueIdentifier>{9dd241a7-f2e6-4330-af82-0644ab17744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\ResultSceneUI\GameResult">
+      <UniqueIdentifier>{73c8d7a7-e1c1-4297-be67-3f7526b9d9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\ResultSceneUI\RankLabel">
+      <UniqueIdentifier>{494c4941-125b-4e1e-9500-b2f9bdc59156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\ResultSceneUI\Guide">
+      <UniqueIdentifier>{e8d0a321-0ad4-463e-adfd-15982e29ee4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\ResultSceneUI\SceneTitle">
+      <UniqueIdentifier>{0507b500-1c31-4ffe-b736-9f510643a9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\MusicSelectUI">
+      <UniqueIdentifier>{3e89b77c-9a59-4d58-a000-0454604459f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\MusicSelectUI\Cursol">
+      <UniqueIdentifier>{2892905a-473d-4fc9-90f9-813b0f453674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\MusicSelectUI\Jacket">
+      <UniqueIdentifier>{6fff37fc-1e99-485d-88d5-706f2824320d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\MusicSelectUI\Guide">
+      <UniqueIdentifier>{77371db7-86ac-4a2d-abf2-2ff32edeb083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\MusicSelectUI\SpeedLabel">
+      <UniqueIdentifier>{ffcb249f-879c-47e4-b60e-5dbce0cc6e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\MusicSelectUI\ScoreRanking">
+      <UniqueIdentifier>{dad64ef3-6884-4106-8b89-3680d7873de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\JudgeResultText">
+      <UniqueIdentifier>{c6a3c6d8-56ab-489a-bd45-b52af17d6ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\ScoreLabel">
+      <UniqueIdentifier>{de465369-5fc3-4ba8-be34-798d4e59a2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\TitleSceneUI">
+      <UniqueIdentifier>{791b2075-22a5-4f69-9454-ffa9d8f73cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\TitleSceneUI\Guide">
+      <UniqueIdentifier>{9b7d2201-d7b2-4d5b-b693-8e61650480c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\TitleSceneUI\TitleLogo">
+      <UniqueIdentifier>{8ae5ebab-91e9-417e-acaf-08d7a0d6d079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Notes">
+      <UniqueIdentifier>{692f9e4d-7e60-4bc4-80d3-e894d63c2aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Notes\Hold">
+      <UniqueIdentifier>{02da50bc-13fa-4305-9fa5-f8cab2e4a5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Notes\Tap">
+      <UniqueIdentifier>{15ca0f41-8965-4d74-9fff-1b19bab5015f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\JudgeLine">
+      <UniqueIdentifier>{03c9627e-4323-40f9-b3d5-30311e963799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Creater">
+      <UniqueIdentifier>{f8dc3d6e-00be-4ce0-bd4d-228a4506e072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Creater\JudgeResult">
+      <UniqueIdentifier>{78adcd16-0e97-47d8-94a9-5a55b5c45a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Creater\Notes">
+      <UniqueIdentifier>{874e7123-2e41-4481-9dc1-26d408c1f791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UIManager">
+      <UniqueIdentifier>{7ef214cb-0971-45f5-bf05-74f7ace8cdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UIManager\GameScene">
+      <UniqueIdentifier>{877e6a2a-5aab-4ef2-91a6-ae5bc5fcd4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UIManager\MusicSelect">
+      <UniqueIdentifier>{52076cf4-e9fb-4b75-a9cb-82b71addccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UIManager\ResultScene">
+      <UniqueIdentifier>{2a37fed0-ae33-4d25-994a-73708ad1537e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UIManager\TitleScene">
+      <UniqueIdentifier>{061cd443-a01a-46a5-a3e8-9e93ad5e9089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll">
+      <UniqueIdentifier>{7f8c8bdd-21eb-4552-9735-67617f71b054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Input">
+      <UniqueIdentifier>{e3087a62-25f3-4d5e-af1f-0c823792ea3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Input\KeyBoard">
+      <UniqueIdentifier>{2de4c028-4ae3-4991-bad8-30cd8d9da2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Input\Mouse">
+      <UniqueIdentifier>{4c582636-4734-4a74-8ea7-ce4d85595190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Memory">
+      <UniqueIdentifier>{16031af6-76fe-47e8-99ce-a87383dfc06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Necessary">
+      <UniqueIdentifier>{7e70c495-0cef-4743-a843-034686caf861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Screen">
+      <UniqueIdentifier>{8dd986a4-577e-4923-94f6-895531578772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Screen\FadeIO">
+      <UniqueIdentifier>{3bd9bb4b-f471-4635-a41c-fd3a945c7368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Screen\Graph">
+      <UniqueIdentifier>{0892a75f-21e9-4946-9a99-f35e2b36232d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Screen\Data">
+      <UniqueIdentifier>{f6a3803d-189a-4c28-9c90-4ce37f4d0147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\GameObject">
+      <UniqueIdentifier>{a06ee3c1-110b-4203-adb4-4b0e3915ec40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\GameObject\Notes">
+      <UniqueIdentifier>{a3649ad4-7b9c-40c9-bc47-f5ff6e1cb2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Ranking">
+      <UniqueIdentifier>{a7eb3d9e-d51a-4b0a-8979-c62c56b3c4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Ranking\Data">
+      <UniqueIdentifier>{ca72d705-1d7a-4fd9-8b39-191017791794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controll\Ranking\System">
+      <UniqueIdentifier>{472b15e3-6141-4e98-82f9-2586d521da2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\json">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\Effect">
+      <UniqueIdentifier>{6c1f30b8-e26a-43cd-971e-53d38fa2759f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\Effect\JudgeResultEffect">
+      <UniqueIdentifier>{1c15d3ca-bd77-400a-8bd7-3a0883f11cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Effect">
+      <UniqueIdentifier>{57ef2eeb-717c-413c-ab95-33ea102b04a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UIObject\GameSceneUI\ClearGauge">
+      <UniqueIdentifier>{3d266d8e-a515-4bf6-82a1-9657c85b6e8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル\Resource\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicUI.cpp">
+      <Filter>ソース ファイル\Base\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboLabel.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\ComboLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursol.cpp">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\Cursol</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResult.cpp">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\GameResult</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceneJacket.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\Jacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Jacket.cpp">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\Jacket</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeButton.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\JudgeButton</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeLine.cpp">
+      <Filter>ソース ファイル\Object\JudgeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeResultText.cpp">
+      <Filter>ソース ファイル\Object\UIObject\JudgeResultText</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeResultUI.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\JudgeResult</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>ソース ファイル\Controll\Input\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\Controll\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicResource.cpp">
+      <Filter>ソース ファイル\Resource\Animation\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ソース ファイル\Resource\Animation\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieResource.cpp">
+      <Filter>ソース ファイル\Resource\Movie\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Movie.cpp">
+      <Filter>ソース ファイル\Resource\Movie\Movie</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect.cpp">
+      <Filter>ソース ファイル\Scene\MusicSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelectGuide.cpp">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="Necessary.cpp">
+      <Filter>ソース ファイル\Controll\Necessary</Filter>
+    </ClCompile>
+    <ClCompile Include="Notes.cpp">
+      <Filter>ソース ファイル\Object\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="HoldNote.cpp">
+      <Filter>ソース ファイル\Object\Notes\Hold</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeResultCreater.cpp">
+      <Filter>ソース ファイル\Object\Creater\JudgeResult</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesCreater.cpp">
+      <Filter>ソース ファイル\Object\Creater\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>ソース ファイル\Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Purpose.cpp">
+      <Filter>ソース ファイル\Base\Purpose</Filter>
+    </ClCompile>
+    <ClCompile Include="PushNote.cpp">
+      <Filter>ソース ファイル\Object\Notes\Tap</Filter>
+    </ClCompile>
+    <ClCompile Include="RankLabel.cpp">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\RankLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultGuide.cpp">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>ソース ファイル\Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>ソース ファイル\UIManager\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelectUI.cpp">
+      <Filter>ソース ファイル\UIManager\MusicSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultSceneTitle.cpp">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\SceneTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultUI.cpp">
+      <Filter>ソース ファイル\UIManager\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Base\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreLabel.cpp">
+      <Filter>ソース ファイル\Object\UIObject\ScoreLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenFunction.cpp">
+      <Filter>ソース ファイル\Controll\Screen\FadeIO</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenHelperGraph.cpp">
+      <Filter>ソース ファイル\Controll\Screen\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSystem.cpp">
+      <Filter>ソース ファイル\Controll\Screen\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesController.cpp">
+      <Filter>ソース ファイル\Controll\GameObject\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedLabel.cpp">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\SpeedLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleGuide.cpp">
+      <Filter>ソース ファイル\Object\UIObject\TitleSceneUI\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>ソース ファイル\Object\UIObject\TitleSceneUI\TitleLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUI.cpp">
+      <Filter>ソース ファイル\UIManager\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="json11.cpp">
+      <Filter>ソース ファイル\json</Filter>
+    </ClCompile>
+    <ClCompile Include="RankData.cpp">
+      <Filter>ソース ファイル\Controll\Ranking\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>ソース ファイル\Controll\Ranking\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreRanking.cpp">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\ScoreRanking</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\Base\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeResultEffect.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\Effect\JudgeResultEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearGaugeFream.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\ClearGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearGauge.cpp">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\ClearGauge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>ソース ファイル\Resource\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicUI.h">
+      <Filter>ソース ファイル\Base\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboLabel.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\ComboLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursol.h">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\Cursol</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResult.h">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\GameResult</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceneJacket.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\Jacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Jacket.h">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\Jacket</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgeLine.h">
+      <Filter>ソース ファイル\Object\JudgeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgeResultText.h">
+      <Filter>ソース ファイル\Object\UIObject\JudgeResultText</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgeButton.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\JudgeButton</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgeResultUI.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\JudgeResult</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>ソース ファイル\Controll\Input\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ソース ファイル\Controll\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFunc.h">
+      <Filter>ソース ファイル\Controll\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicResource.h">
+      <Filter>ソース ファイル\Resource\Animation\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ソース ファイル\Resource\Animation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieResource.h">
+      <Filter>ソース ファイル\Resource\Movie\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Movie.h">
+      <Filter>ソース ファイル\Resource\Movie\Movie</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect.h">
+      <Filter>ソース ファイル\Scene\MusicSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelectGuide.h">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="Necessary.h">
+      <Filter>ソース ファイル\Controll\Necessary</Filter>
+    </ClInclude>
+    <ClInclude Include="Notes.h">
+      <Filter>ソース ファイル\Object\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="HoldNote.h">
+      <Filter>ソース ファイル\Object\Notes\Hold</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgeResultCreater.h">
+      <Filter>ソース ファイル\Object\Creater\JudgeResult</Filter>
+    </ClInclude>
+    <ClInclude Include="NotesCreater.h">
+      <Filter>ソース ファイル\Object\Creater\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>ソース ファイル\Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Purpose.h">
+      <Filter>ソース ファイル\Base\Purpose</Filter>
+    </ClInclude>
+    <ClInclude Include="PushNote.h">
+      <Filter>ソース ファイル\Object\Notes\Tap</Filter>
+    </ClInclude>
+    <ClInclude Include="RankLabel.h">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\RankLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultGuide.h">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>ソース ファイル\Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>ソース ファイル\UIManager\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelectUI.h">
+      <Filter>ソース ファイル\UIManager\MusicSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultSceneTitle.h">
+      <Filter>ソース ファイル\Object\UIObject\ResultSceneUI\SceneTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultUI.h">
+      <Filter>ソース ファイル\UIManager\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ソース ファイル\Base\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ソース ファイル\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreLabel.h">
+      <Filter>ソース ファイル\Object\UIObject\ScoreLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenFunction.h">
+      <Filter>ソース ファイル\Controll\Screen\FadeIO</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenHelperGraph.h">
+      <Filter>ソース ファイル\Controll\Screen\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSystem.h">
+      <Filter>ソース ファイル\Controll\Screen\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="NotesController.h">
+      <Filter>ソース ファイル\Controll\GameObject\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedLabel.h">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\SpeedLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleGuide.h">
+      <Filter>ソース ファイル\Object\UIObject\TitleSceneUI\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>ソース ファイル\Object\UIObject\TitleSceneUI\TitleLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUI.h">
+      <Filter>ソース ファイル\UIManager\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="json11.hpp">
+      <Filter>ソース ファイル\json</Filter>
+    </ClInclude>
+    <ClInclude Include="RankData.h">
+      <Filter>ソース ファイル\Controll\Ranking\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>ソース ファイル\Controll\Ranking\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreRanking.h">
+      <Filter>ソース ファイル\Object\UIObject\MusicSelectUI\ScoreRanking</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ソース ファイル\Base\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgeResultEffect.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\Effect\JudgeResultEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearGaugeFream.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\ClearGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearGauge.h">
+      <Filter>ソース ファイル\Object\UIObject\GameSceneUI\ClearGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

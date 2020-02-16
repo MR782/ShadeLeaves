@@ -1,0 +1,146 @@
+{
+  "audio": [
+    {
+      "name": "decision",
+      "loop": false,
+      "path": "./data/BGM_SE/SE/SystemDecision.ogg",
+      "scope": [
+        "decision",
+        "se",
+        "system",
+        "all"
+      ]
+    },
+    {
+      "name": "cursol",
+      "loop": false,
+      "path": "./data/BGM_SE/SE/SystemCursol.ogg",
+      "scope": [
+        "se",
+        "system",
+        "all"
+      ]
+    },
+    {
+      "name": "perfect",
+      "loop": false,
+      "path": "./data/BGM_SE/SE/perfect.ogg",
+      "scope": [
+        "system",
+        "se",
+        "all"
+      ]
+    },
+    {
+      "name": "good",
+      "loop": false,
+      "path": "./data/BGM_SE/SE/good.ogg",
+      "scope": [
+        "system",
+        "se",
+        "all"
+      ]
+    },
+    {
+      "name": "miss",
+      "loop": false,
+      "path": "./data/BGM_SE/SE/miss.ogg",
+      "scope": [
+        "system",
+        "se",
+        "all"
+      ]
+    },
+    {
+      "name": "title",
+      "loop": true,
+      "path": "./data/BGM_SE/BGM/title.ogg",
+      "scope": [
+        "bgm",
+        "title",
+        "all"
+      ]
+    },
+    {
+      "name": "m_select",
+      "loop": true,
+      "path": "./data/BGM_SE/BGM/m_select.ogg",
+      "scope": [
+        "bgm",
+        "select",
+        "all"
+      ]
+    },
+    {
+      "name": "monoceros",
+      "loop": false,
+      "path": "./data/BGM_SE/BGM/monoceros.mp3",
+      "scope": [
+        "bgm",
+        "game",
+        "all"
+      ]
+    },
+    {
+      "name": "monocerosDemo",
+      "loop": true,
+      "path": "./data/BGM_SE/BGM/monocerosDemo.wav",
+      "scope": [
+        "bgm",
+        "select",
+        "all"
+      ]
+    },
+    {
+      "name": "fancie",
+      "loop": false,
+      "path": "./data/BGM_SE/BGM/fancie.mp3",
+      "scope": [
+        "bgm",
+        "game",
+        "all"
+      ]
+    },
+    {
+      "name": "fancieDemo",
+      "loop": true,
+      "path": "./data/BGM_SE/BGM/fancieDemo.wav",
+      "scope": [
+        "bgm",
+        "select",
+        "all"
+      ]
+    },
+    {
+      "name": "m3_500",
+      "loop": false,
+      "path": "./data/BGM_SE/BGM/Procuring 500 yen coin for M3 Academy.mp3",
+      "scope": [
+        "bgm",
+        "game",
+        "all"
+      ]
+    },
+    {
+      "name": "m3_500Demo",
+      "loop": true,
+      "path": "./data/BGM_SE/BGM/Procuring 500 yen coin for M3 Academy Demo.mp3",
+      "scope": [
+        "bgm",
+        "select",
+        "all"
+      ]
+    },
+    {
+      "name": "result",
+      "loop": true,
+      "path": "./data/BGM_SE/BGM/result.ogg",
+      "scope": [
+        "bgm",
+        "result",
+        "all"
+      ]
+    }
+
+  ]
+}

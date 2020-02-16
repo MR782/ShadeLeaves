@@ -1,0 +1,644 @@
+{
+  "graph": [
+    {
+      "name": "title_back",
+      "path": "./data/graph/title/title_back.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "title",
+        "back",
+        "all"
+      ]
+    },
+    {
+      "name": "title_logo",
+      "path": "./data/graph/title/titleLogo.png",
+      "width": 768,
+      "height": 256,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "title",
+        "logo",
+        "all"
+      ]
+    },
+    {
+      "name": "score_board",
+      "path": "./data/graph/music_select/scoreboard.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "scoreboard",
+        "all"
+      ]
+    },
+    {
+      "name": "title_ui",
+      "path": "./data/graph/title/TitleUI.png",
+      "width": 512,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "title",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "select_back",
+      "path": "./data/graph/music_select/SelectScene.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "back",
+        "all"
+      ]
+    },
+    {
+      "name": "select_cursol_L",
+      "path": "./data/graph/music_select/SelectCursol_L.png",
+      "width": 64,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "cursol",
+        "all"
+      ]
+    },
+    {
+      "name": "select_cursol_R",
+      "path": "./data/graph/music_select/SelectCursol_R.png",
+      "width": 64,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "cursol",
+        "all"
+      ]
+    },
+    {
+      "name": "monoceros_jacket",
+      "path": "./data/graph/music_select/monoceros_jacket.png",
+      "width": 320,
+      "height": 480,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "jacket",
+        "all"
+      ]
+    },
+    {
+      "name": "fancie_jacket",
+      "path": "./data/graph/music_select/fancie_jacket.png",
+      "width": 320,
+      "height": 480,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "jacket",
+        "all"
+      ]
+    },
+    {
+      "name": "m3_500_jacket",
+      "path": "./data/graph/music_select/m3_500_jacket.png",
+      "width": 320,
+      "height": 480,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "select",
+        "jacket",
+        "all"
+      ]
+    },
+    {
+      "name": "tap_notes",
+      "path": "./data/graph/game/TapNotes.png",
+      "width": 64,
+      "height": 16,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "note",
+        "all"
+      ]
+    },
+    {
+      "name": "hold_notes",
+      "path": "./data/graph/game/HoldNotes.png",
+      "width": 64,
+      "height": 16,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "note",
+        "all"
+      ]
+    },
+    {
+      "name": "gauge_fream",
+      "path": "./data/graph/game/cleargauge/gauge_waku.png",
+      "width": 724,
+      "height": 62,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "gauge_fream_decoration",
+      "path": "./data/graph/game/cleargauge/gauge_decoration.png",
+      "width": 1038,
+      "height": 247,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "clear_line",
+      "path": "./data/graph/game/cleargauge/gauge_clearLine.png",
+      "width": 467,
+      "height": 52,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "clear_line_max",
+      "path": "./data/graph/game/cleargauge/gauge_clearLine_max.png",
+      "width": 467,
+      "height": 52,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "normal_gauge",
+      "path": "./data/graph/game/cleargauge/gauge.png",
+      "width": 467,
+      "height": 52,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "clear_gauge",
+      "path": "./data/graph/game/cleargauge/gauge_clear.png",
+      "width": 714,
+      "height": 52,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "all"
+      ]
+    },
+    {
+      "name": "M3_BG",
+      "path": "./data/graph/game/GameBack.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "back",
+        "all"
+      ]
+    },
+    {
+      "name": "Fancie_BG",
+      "path": "./data/graph/game/Fancie_BG.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "back",
+        "all"
+      ]
+    },
+    {
+      "name": "monoceros_BG",
+      "path": "./data/graph/game/monoceros_BG.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "back",
+        "all"
+      ]
+    },
+    {
+      "name": "judge_line",
+      "path": "./data/graph/game/judge_line.png",
+      "width": 256,
+      "height": 16,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "judge_line",
+        "all"
+      ]
+    },
+    {
+      "name": "perfect_effect",
+      "path": "./data/graph/game/perfect_effect.png",
+      "width": 64,
+      "height": 32,
+      "vertical": 2,
+      "horizontal": 15,
+      "loop": false,
+      "interval": 1,
+      "sheets": 30,
+      "scope": [
+        "game",
+        "effect",
+        "all"
+      ]
+    },
+    {
+      "name": "good_effect",
+      "path": "./data/graph/game/good_effect.png",
+      "width": 64,
+      "height": 32,
+      "vertical": 2,
+      "horizontal": 15,
+      "loop": false,
+      "interval": 1,
+      "sheets": 30,
+      "scope": [
+        "game",
+        "effect",
+        "all"
+      ]
+    },
+    {
+      "name": "perfect",
+      "path": "./data/graph/ui/perfect.png",
+      "width": 110,
+      "height": 45,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "perfect",
+        "all"
+      ]
+    },
+    {
+      "name": "good",
+      "path": "./data/graph/ui/good.png",
+      "width": 110,
+      "height": 45,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "good",
+        "all"
+      ]
+    },
+    {
+      "name": "miss",
+      "path": "./data/graph/ui/miss.png",
+      "width": 110,
+      "height": 45,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "ui",
+        "miss",
+        "all"
+      ]
+    },
+    {
+      "name": "pushK",
+      "path": "./data/graph/game/pushK.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "pushJ",
+      "path": "./data/graph/game/pushJ.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "pushD",
+      "path": "./data/graph/game/pushD.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "pushF",
+      "path": "./data/graph/game/pushF.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "not_pushK",
+      "path": "./data/graph/game/notpushK.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "not_pushF",
+      "path": "./data/graph/game/notpushF.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "not_pushD",
+      "path": "./data/graph/game/notpushD.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "not_pushJ",
+      "path": "./data/graph/game/notpushJ.png",
+      "width": 64,
+      "height": 40,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "game",
+        "button",
+        "all"
+      ]
+    },
+    {
+      "name": "result_back",
+      "path": "./data/graph/ending/EndingSceneBack.png",
+      "width": 1920,
+      "height": 1080,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "result",
+        "back",
+        "all"
+      ]
+    },
+    {
+      "name": "result_title",
+      "path": "./data/graph/ending/result.png",
+      "width": 256,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "result",
+        "all"
+      ]
+    },
+    {
+      "name": "Clear",
+      "path": "./data/graph/ending/Clear.png",
+      "width": 256,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "result",
+        "all"
+      ]
+    },
+    {
+      "name": "Failed",
+      "path": "./data/graph/ending/FAILED.png",
+      "width": 256,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "result",
+        "all"
+      ]
+    },
+    {
+      "name": "result_guide",
+      "path": "./data/graph/ending/ResultGuide.png",
+      "width": 284,
+      "height": 64,
+      "vertical": 1,
+      "horizontal": 1,
+      "loop": false,
+      "interval": 0,
+      "sheets": 1,
+      "scope": [
+        "result",
+        "rank",
+        "all"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "movie": [
+    {
+      "name": "reaf",
+      "path": "./data/movie/reaf.mp4",
+      "loop": true,
+      "scope": [
+        "title",
+        "reaf",
+        "all"
+      ]
+    },
+    {
+      "name": "autumn_leaves",
+      "path": "./data/movie/music_select.mp4",
+      "loop": true,
+      "scope": [
+        "m_select",
+        "all"
+      ]
+    }
+  ]
+}

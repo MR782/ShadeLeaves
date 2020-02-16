@@ -1,0 +1,66 @@
+﻿・ゲームタイトル
+Shade Leaves
+
+・製作者
+Team GM
+
+・ゲーム概要
+縦レーン式の音ゲー
+シンプルながらやり込める要素満載！
+ややこしい操作もないので初心者に安心
+
+・シーン遷移図
+タイトル -> 楽曲選択 -> ゲーム本編 -> リザルト -> 楽曲選択
+
+
+・使用デバイス
+キーボード
+
+
+・操作方法
+～タイトル～
+Enterキーで楽曲選択へ
+
+～楽曲選択～
+矢印キー(左右)で楽曲を選択
+DFキーでノーツ速度ダウン
+JKキーでノーツ速度アップ
+
+～ゲーム本編～
+DFJKキーで判定
+
+
+・ゲームの売り、こだわり、特に注目して遊んでほしいところ
+シンプルをとことん追求し初心者も安心してプレイできる
+かつ、音ゲー経験者も楽しんでもらえるように
+少し難しい譜面も用意しているところ
+
+
+・確認できるバグ情報
+確認しているバグ等はありません
+
+・動作環境
+Windows 10 
+
+・開発環境
+Visual Stdio 2017
+Gimp 2.10.8
+Adobe Photoshop Elements 10
+Prominence
+MixPad
+FL Stdio(Android)
+
+・使用素材、版権、参考サイトURL
+-Monoceros  ©John様
+-幻想曲「天河」 ©John様
+
+-M3に必要な500円玉調達学園校歌
+ 作曲：ボルシチ(Twitter @BORSCHT_music)様
+ 作詞：あいうえお(Twitter @dot_h883)様
+
+魔王魂 様
+タイトルBGM
+https://maoudamashii.jokersounds.com/archives/game_maoudamashii_3_theme12.html
+
+リザルトBGM
+https://maoudamashii.jokersounds.com/archives/bgm_maoudamashii_healing15.html
